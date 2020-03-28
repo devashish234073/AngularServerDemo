@@ -1,0 +1,4 @@
+<input [(ngModel)]="currServer" type="text" [ngStyle]="{borderColor:getTxtColor()}"><button (click)="addServer()" [disabled]="currServer==''">Add Server</button><button (click)="currServer=''" [disabled]="currServer==''">Reset</button>
+<ul>
+<li *ngFor="let s of servers"><app-server serverName={{s}}></app-server></li>
+</ul>

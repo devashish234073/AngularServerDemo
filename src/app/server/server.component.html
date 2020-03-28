@@ -1,0 +1,5 @@
+<table [ngClass]="{on:serverStatus=='online',off:serverStatus=='offline'}">
+  <tr><td>Server Name</td><td>{{serverName}}</td></tr>
+  <tr><td>Status</td><td [ngClass]="{online:serverStatus=='online',offline:serverStatus=='offline'}">{{serverStatus}}</td></tr>
+  <tr><td>Signal Strength</td><td>{{signalStrength}}</td></tr>
+</table>

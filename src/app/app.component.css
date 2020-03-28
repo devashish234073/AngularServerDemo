@@ -1,0 +1,25 @@
+li{
+  margin-top:10px;
+}
+*{
+  outline:none;
+}
+input[type='text']{
+  border-width:3px;
+  border-radius:10px;
+  padding-left:10px;
+  box-shadow:2px 2px 7px black;
+}
+button{
+  border:none;
+  color:white;
+  background-color:blue;
+  padding:3px;
+  padding-left:10px;
+  padding-right:10px;
+  border-radius:10px;
+}
+button:disabled{
+  background-color:gray;
+  color:darkgray;
+}

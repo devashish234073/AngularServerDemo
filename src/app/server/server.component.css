@@ -1,0 +1,25 @@
+*{
+  outline:none;
+}
+.online{
+  color:green;
+}
+.offline{
+  color:red;
+}
+table{
+  border-collapse:collapse;
+  box-shadow:3px 3px 7px black;
+}
+td{
+  border:1px solid blue;
+  padding:3px;
+  font-size:12px;
+  width:80px;
+}
+.on{
+  box-shadow:3px 3px 7px green;
+}
+.off{
+  box-shadow:3px 3px 7px red;
+}
